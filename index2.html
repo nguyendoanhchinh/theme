@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reponsive.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="header hide-on-mobile-tablet">
+            <div class="header-top">
+                <div class="address">
+                    <div class="header-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <p class="address-lable">
+                        Địa chỉ: Tòa nhà VNPT, 57 Huỳnh Thúc Kháng, Đống Đa, Hà Nội
+                    </p>
+                </div>
+                <div class="hotline">
+                    <div class="header-icon"><i class="fa-solid fa-phone"></i></div>
+                    <p class="hotline-lable">Hotline: 18001260</p>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-image">
+                <img src="image/brick-building-with-sign-reading-college-business-front 1.jpg" alt="" />
+            </div>
+            <div class="group-link">
+                <label for="nav__mobile-input" class="nav_bars-btn"><i class="fa-solid fa-bars"></i
+          ></label>
+                <input type="checkbox" class="nav-input" id="nav__mobile-input" name="" id="" hidden />
+
+                <div class="group-link-lable">
+                    <div class="header-bottom-lable-img">
+                        <img src="image/group-1@2x.png" alt="" />
+                    </div>
+                    <div class="menu-container">
+                        <div class="menu-container-home">
+                            <div><a href="#">Trang chủ</a></div>
+                        </div>
+                        <div style="width: 88px" class="menu-container-link has-submenu">
+                            <div>
+                                <a class="menu-item" href="#">Giới thiệu</a>
+                                <ul class="menu-gioithieu">
+                                    <li><a href="#">Chương trình đào tạo</a></li>
+                                    <li><a href="#">Giới thiệu Ngành học</a></li>
+                                    <li><a href="#">Cơ hội việc làm </a></li>
+                                    <li><a href="#">Trải nghiệm </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div style="width: 70px" class="menu-container-link has-submenu">
+                            <div><a class="menu-item" href="#">Tin tức</a></div>
+                            <ul class="menu-tintuc">
+                                <li><a href="#">Tin giáo dục</a></li>
+                                <li><a href="#">Tin nhà trường </a></li>
+                                <li><a href="#">Sự kiện</a></li>
+                                <li><a href="#">Đổi mới giáo dục</a></li>
+                                <li><a href="#">Văn hóa - Văn Nghệ</a></li>
+                            </ul>
+                        </div>
+                        <div style="width: 82px" class="menu-container-link has-submenu">
+                            <div><a class="menu-item" href="#">Thư viện</a></div>
+                            <ul class="menu-thuvien">
+                                <li><a href="#">Đề - Đáp án</a></li>
+                                <li><a href="#">Bài giảng - Giáo án</a></li>
+                            </ul>
+                        </div>
+                        <div style="width: 83px" class="menu-container-link">
+                            <div><a class="menu-item" href="#">Hình ảnh</a></div>
+                        </div>
+                        <div style="width: 98px" class="menu-container-link has-submenu">
+                            <div><a class="menu-item" href="#">Tuyển sinh</a></div>
+                            <ul class="menu-tuyensinh">
+                                <li><a href="#">Tuyển sinh tốt nghiệp THPT</a></li>
+                                <li><a href="#">Tuyển sinh vào 10</a></li>
+                            </ul>
+                        </div>
+                        <div style="width: 92px" class="menu-container-link">
+                            <div><a class="menu-item" href="#">Video clip</a></div>
+                        </div>
+                        <div style="width: 72px" class="menu-container-link">
+                            <div><a class="menu-item" href="#">Liên hệ</a></div>
+                        </div>
+                        <div style="width: 92px" class="menu-container-link has-submenu">
+                            <div><a class="menu-item" href="#">Xem điểm</a></div>
+                            <ul class="menu-xemdiem">
+                                <li><a href="#">Điểm thi tốt nghiệp THPT</a></li>
+                                <li><a href="#">Điểm thi vào 10</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="search-box">
+                        <div class="search-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <form action=" " class="search-form">
+                            <input type="search " class="search-input" placeholder="Tìm kiếm... " />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <nav class="nav__mobile">
+            <label for="nav__mobile-input" class="close"><i class="fas fa-close"></i
+        ></label>
+            <ul class="nav__mobile-list">
+                <li class="nav__mobile-link selected">
+                    <a href="#">Trang chủ </a>
+                </li>
+                <li class="nav__mobile-link">
+                    <a href="#">Giới thiệu </a
+            ><i id="down" class="fas fa-chevron-down"></i>
+            <ul class="menu-mobile">
+              <li><a href="#">Chương trình đào tạo</a></li>
+                <li><a href="#">Giới thiệu Ngành học</a></li>
+                <li><a href="#">Cơ hội việc làm </a></li>
+                <li><a href="#">Trải nghiệm </a></li>
+            </ul>
+            </li>
+            <li class="nav__mobile-link">
+                <a href="#">Tin tức</a><i id="down" class="fas fa-chevron-down"></i>
+                <ul class="menu-mobile">
+                    <li><a href="#">Tin tức thế giới</a></li>
+                    <li><a href="#">Tin tức trong nước</a></li>
+                    <li><a href="#">Tin tức ngoài nước</a></li>
+                    <li><a href="#">Tin tức láng giềng</a></li>
+                    <li><a href="#">Tin tức trường học</a></li>
+                </ul>
+            </li>
+            <li class="nav__mobile-link">
+                <a href="#">Thư viện</a
+            ><i id="down" class="fas fa-chevron-down"></i>
+            <ul class="menu-mobile">
+              <li><a href="#">Đề - Đáp án</a></li>
+            <li><a href="#">Bài giảng - Giáo án</a></li>
+            </ul>
+            </li>
+            <li class="nav__mobile-link">
+                <a href="#">Hình ảnh </a>
+            </li>
+            <li class="nav__mobile-link">
+                <a href="#">Tuyển sinh </a
+            ><i id="down" class="fas fa-chevron-down"></i>
+            <ul class="menu-mobile">
+              <li><a href="#">Tuyển sinh tốt nghiệp THPT</a></li>
+            <li><a href="#">Tuyển sinh vào 10</a></li>
+            </ul>
+            </li>
+            <li class="nav__mobile-link">
+                <a href="#">Video clip </a>
+            </li>
+            <li class="nav__mobile-link">
+                <a href="#">Liên hệ </a>
+            </li>
+            <li class="nav__mobile-link">
+                <a href="#">Xem điểm </a
+            ><i id="down" class="fas fa-chevron-down"></i>
+            <ul class="menu-mobile">
+              <li><a href="#">Điểm thi tốt nghiệp THPT</a></li>
+            <li><a href="#">Điểm thi vào 10</a></li>
+            </ul>
+            </li>
+            </ul>
+        </nav>
+        <div class="custom-background"></div>
+        <div class="slider_2">
+            <div class="slider-group active-slider" style="margin-bottom: 14px">
+                <img src="image/Image (1).png " />
+                <div class="slider-content">
+                    <div class="slider-content-title">
+                        <a href="# ">Dừng tuyển sinh hệ cao đẳng tại 45 trường đại học từ năm học
+                2020</a
+              >
+            </div>
+
+            <div class="slider-content-text">
+              <p>
+                TT 32 Quy định về việc xác định chỉ tiêu tuyển sinh đối với các
+                cơ sở giáo dục đại học, Bộ Giáo dục và Đào tạo yêu cầu các
+                trường đại học có tuyển sinh và đào tạo cao đẳng giảm 20% chỉ
+                tiêu cao đẳng mỗi năm, để đến năm 2020 không còn tuyển sinh bậc
+                học này trong trường đại học.<br /><br />Trước đó, tháng 7/2019,
+                Tổng cục Giáo dục nghề nghiệp (Bộ Lao động, Thương binh và Xã
+                hội)
+              </p>
+            </div>
+            <div class="slider-content-page">
+              <div class="slider-content-page-next">
+                <a href="# ">Đọc tiếp</a>
+                    </div>
+                    <div class="slider-content-page-next-icon">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-content">
+        <div class="blog-section">
+            <div class="content-section">
+                <img class="blog-image" src="image/Rectangle 3541.png" />
+                <div class="content-section-text">
+                    <div class="blog-section-title">
+                        <a href="#">Mặc đồng phục chụp vội tấm ảnh, nữ sinh 2001 khiến dân tình
+                  chao đảo vì quá xinh xắn, ngọt ngào</a
+                >
+              </div>
+              <div class="blog-section-content">
+                <p>
+                  Nữ sinh 2001 đang được săn lùng trên mạng xã hội từ một bức
+                  ảnh chụp ngẫu nhiên ở trường.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="content-section">
+            <img class="blog-image" src="image/Rectangle 9.png" />
+            <div class="content-section-text">
+              <div class="blog-section-title">
+                <a href="#"
+                  >Nam Định dự kiến cho học sinh THCS trở xuống đi học trở lại
+                  sau 15/3</a
+                >
+              </div>
+              <div class="blog-section-content">
+                <p>
+                  UBND tỉnh Nam Định vừa quyết định cho trẻ mầm non, học sinh
+                  tiểu học và THCS trên địa bàn tiếp tục nghỉ học đến hết ngày
+                  15/3.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="content-section">
+            <img class="blog-image" src="image/image 91.png" />
+            <div class="content-section-text">
+              <div class="blog-section-title">
+                <a href="#"
+                  >Nữ sinh ĐH Kinh Tế Quốc Dân vừa xinh lại học giỏi suốt 12
+                  năm</a
+                >
+              </div>
+              <div class="blog-section-content">
+                <p>
+                  Phạm Lê Thu Hà hiện đang là sinh viên năm nhất trường ĐH Kinh
+                  tế Quốc dân, nữ sinh này khiến người đối diện “thương nhớ” bởi
+                  gương mặt khả ái, đôi mắt to tròn và góc nghiêng cuốn hút.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="content-section">
+            <img class="blog-image" src="image/image 92.png" />
+            <div class="content-section-text">
+              <div class="blog-section-title">
+                <a href="#"
+                  >Điểm chuẩn học bạ Đại học Thương mại cao nhất 27,5</a
+                >
+              </div>
+              <div class="blog-section-content">
+                <p>
+                  Nữ sinh 2001 đang được săn lùng trên mạng xã hội từ một bức
+                  ảnh chụp ngẫu nhiên ở trường.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="content-section">
+            <img class="blog-image" src="image/Rectangle 90 (1).png" />
+            <div class="content-section-text">
+              <div class="blog-section-title">
+                <a href="#">IELTS 7.0 có học được Công nghệ thông tin?</a>
+                    </div>
+                    <div class="blog-section-content">
+                        <p>
+                            UBND tỉnh Nam Định vừa quyết định cho trẻ mầm non, học sinh tiểu học và THCS trên địa bàn tiếp tục nghỉ học đến hết ngày 15/3.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-section">
+                <img class="blog-image" src="image/Rectangle 3470 (1).png" />
+                <div class="content-section-text">
+                    <div class="blog-section-title">
+                        <a href="#">Khác biệt giữa Kinh tế quốc tế và Kinh doanh quốc tế</a
+                >
+              </div>
+              <div class="blog-section-content">
+                <p>
+                  Phạm Lê Thu Hà hiện đang là sinh viên năm nhất trường ĐH Kinh
+                  tế Quốc dân, nữ sinh này khiến người đối diện “thương nhớ” bởi
+                  gương mặt khả ái, đôi mắt to tròn và góc nghiêng cuốn hút.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="content-section">
+            <img class="blog-image" src="image/Rectangle 90 (1).png" />
+            <div class="content-section-text">
+              <div class="blog-section-title">
+                <a href="#"
+                  >Mặc đồng phục chụp vội tấm ảnh, nữ sinh 2001 khiến dân tình
+                  chao đảo vì quá xinh xắn, ngọt ngào</a
+                >
+              </div>
+              <div class="blog-section-content">
+                <p>
+                  Nữ sinh 2001 đang được săn lùng trên mạng xã hội từ một bức
+                  ảnh chụp ngẫu nhiên ở trường.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="custom-background"></div>
+          <div class="content-section">
+            <img class="blog-image" src="image/Rectangle 3541.png" />
+            <div class="content-section-text">
+              <div class="blog-section-title">
+                <a href="#"
+                  >Những điều thú vị khi du học từ bậc Trung học tại California,
+                  Lasvegas ở Mỹ</a
+                >
+              </div>
+              <div class="blog-section-content">
+                <p>
+                  UBND tỉnh Nam Định vừa quyết định cho trẻ mầm non, học sinh
+                  tiểu học và THCS trên địa bàn tiếp tục nghỉ học đến hết ngày
+                  15/3.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="content-section">
+            <img class="blog-image" src="image/image 91.png" />
+            <div class="content-section-text">
+              <div class="blog-section-title">
+                <a href="#"
+                  >Nữ sinh ĐH Kinh Tế Quốc Dân vừa xinh lại học giỏi suốt 12
+                  năm</a
+                >
+              </div>
+              <div class="blog-section-content">
+                <p>
+                  Trong Thông tư 32 Quy định về việc xác định chỉ tiêu tuyển
+                  sinh đối với các cơ sở giáo dục đại học, Bộ Giáo dục và Đào
+                  tạo yêu cầu các trường đại học có tuyển sinh và đào tạo cao
+                  đẳng giảm 20% chỉ tiêu cao đẳng mỗi năm, để đến năm 2020 không
+                  còn tuyển sinh bậc học này trong trường đại học. Trước đó,
+                  tháng 7/2019, Tổng cục Giáo dục nghề nghiệp (Bộ Lao động,
+                  Thương binh và Xã hội)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="content-section">
+            <img class="blog-image" src="image/Image (2).png" />
+            <div class="content-section-text">
+              <div class="blog-section-title">
+                <a href="#"
+                  >Bộ GD-ĐT đề nghị cho học sinh toàn quốc nghỉ hết tháng 2</a
+                >
+              </div>
+              <div class="blog-section-content">
+                <p>
+                  Trong Thông tư 32 Quy định về việc xác định chỉ tiêu tuyển
+                  sinh đối với các cơ sở giáo dục đại học, Bộ Giáo dục và Đào
+                  tạo yêu cầu các trường đại học có tuyển sinh và đào tạo cao
+                  đẳng giảm 20% chỉ tiêu cao đẳng mỗi năm, để đến năm 2020 không
+                  còn tuyển sinh bậc học này trong
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-section">
+            <img class="blog-image" src="image/Rectangle 3541.png" />
+            <div class="content-section-text">
+              <div class="blog-section-title">
+                <a href="#"
+                  >Việt Nam giành hai huy chương vàng Olympic Toán quốc tế</a
+                >
+              </div>
+              <div class="blog-section-content">
+                <p>
+                  Tham dự giải có 4 đội thuộc 4 đơn vị: THPT Chơn Thành, THPT
+                  Chu Văn An, THCS&THPT Nguyễn Bỉnh Khiêm và Trường Cao Đẳng
+                  nghề Bình Phước.Các trận đấu diễn ra sôi nổi, cùng với sự cổ
+                  động rất nồng nhiệt của cổ c9ộng viên các đơn vị. Các trận đấu
+                  diễn ra theo thể thức loại trực tiếp. Kết quả chung cuộc: Đội
+                  bóng trường THCS&THPT Nguyễn Bỉnh khiêm vô địch đạt cúp giải
+                  năm 2016.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="content-section">
+            <img class="blog-image" src="image/image 91.png" />
+            <div class="content-section-text">
+              <div class="blog-section-title">
+                <a href="#"
+                  >Hướng dẫn tổ chức đăng ký dự thi THPT quốc gia năm 2023 tại
+                  Nam Định (313/SGDĐT-KTKĐ ngày 29/3/2019)</a
+                >
+              </div>
+              <div class="blog-section-content">
+                <p>
+                  Phạm Lê Thu Hà hiện đang là sinh viên năm nhất trường ĐH Kinh
+                  tế Quốc dân, nữ sinh này khiến người đối diện “thương nhớ” bởi
+                  gương mặt khả ái, đôi mắt to tròn và góc nghiêng cuốn hút.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <div class="pagination-item">
+            <div class="pagination-item-icon">
+              <div class="pagination-item-icon-inner">
+                <a href="#">
+                  <i
+                    class="fa-solid fa-angle-double-left"
+                    style="color: #cbcee7"
+                  ></i>
+                </a>
+                    </div>
+                </div>
+                <div class="pagination-group" style="
+                height: 32px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                background: #c01c1c;
+                border-radius: 8px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                display: flex;
+              ">
+                    <div class="pagination-item-number" style="color: white">1</div>
+                </div>
+                <div class="pagination-group">
+                    <div class="pagination-item-number"><a href="#">2</a></div>
+                </div>
+                <div class="pagination-group">
+                    <div class="pagination-item-number"><a href="#">3</a></div>
+                </div>
+                <div class="pagination-group">
+                    <div class="pagination-item-number"><a href="#">...</a></div>
+                </div>
+                <div class="pagination-group">
+                    <div class="pagination-item-number"><a href="#">10</a></div>
+                </div>
+                <div class="pagination-item-icon-inner">
+                    <a href="#">
+                        <i class="fa-solid fa-angle-double-right" style="color: #c01c1c"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="animated-background"></div>
+        <div class="notification-container">
+            <div class="notification-header">
+                <div class="notification-icon">
+                    <i class="fas fa-bell" style="color: #fff" ;></i>
+                </div>
+                <div class="notification-title">Thông báo</div>
+            </div>
+            <div class="notification-content">
+                <div class="notification-item">
+                    <div class="notification-item-icon">
+                        <div class="item-circle"></div>
+                    </div>
+                    <div class="notification-item-text">
+                        Thông báo họp phụ huynh năm 2019 - 2020 cho các khối
+                    </div>
+                </div>
+                <div class="notification-item">
+                    <div class="notification-item-icon">
+                        <div class="item-circle"></div>
+                    </div>
+                    <div class="notification-item-text">
+                        Thi tốt nghiệp THPT dự kiến còn 4 môn
+                    </div>
+                </div>
+                <div class="notification-item">
+                    <div class="notification-item-icon">
+                        <div class="item-circle"></div>
+                    </div>
+                    <div class="notification-item-text">
+                        Thông báo thay đổi lịch nhập học cho học sinh khối 10
+                    </div>
+                </div>
+                <div class="notification-item">
+                    <div class="notification-item-icon">
+                        <div class="item-circle"></div>
+                    </div>
+                    <div class="notification-item-text">
+                        Thông báo nghỉ học cho tất cả các khối trong nhà trường
+                    </div>
+                </div>
+                <div class="notification-item">
+                    <div class="notification-item-icon">
+                        <div class="item-circle"></div>
+                    </div>
+                    <div class="notification-item-text">
+                        Kết quả kiểm tra học kỳ 1 năm học 2019 - 2020 của các khối
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img class="image-student-1" src="image/a1.png" alt="" />
+            <img class="image-student-2" src="image/a2.png" alt="" />
+        </div>
+    </div>
+    </div>
+    <div class="footer" style="margin-top: 40px">
+        <div class="school-info">
+            <div class="logo">
+                <a href="#"><img src="image/Logo VNeDu 1.png " alt=" " /></a>
+            </div>
+            <div class="school-name">
+                <a href="#">Trường trung học phổ thông trần quốc tuấn</a>
+            </div>
+
+            <div class="contact">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+
+                    <a href="#" class="contact-value"> Email: hotline@vnedu.vn</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+
+                    <a href="#" class="contact-value"> Hotline: 18001260</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+
+                    <a href="#" class="contact-value">
+              Địa chỉ: Tòa nhà VNPT, 57 Huỳnh Thúc Kháng, Đống Đa, Hà Nội</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="info">
+        <div class="navigation">
+          <a href="# " class="nav-item">Trang chủ</a>
+                    <a href="# " class="nav-item">Giới thiệu</a>
+                    <a href="# " class="nav-item">Tin tức</a>
+                </div>
+                <div class="library">
+                    <a href="# " class="nav-item">Thư viện</a>
+                    <a href="# " class="nav-item">Tuyển sinh</a>
+                    <a href="# " class="nav-item">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+</body>
+
+<script src="js/main.js "></script>
+
+</html>
