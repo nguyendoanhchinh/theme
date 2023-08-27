@@ -336,6 +336,10 @@
     color: #5A688F;
 }
 
+.search-input:focus {
+    outline: none;
+}
+
 .search-form {
     margin: 0;
     padding: 0;
