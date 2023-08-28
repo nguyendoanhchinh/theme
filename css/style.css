@@ -373,6 +373,7 @@
 /* nav__mobile */
 
 .nav__mobile {
+    overflow: auto;
     margin: 0;
     position: fixed;
     height: auto;
@@ -419,8 +420,7 @@
 .menu-mobile {
     list-style: none;
     display: none;
-    /* position: relative;
-    top: 10px; */
+    /* position: relative; */
     margin-left: 20px;
 }
 

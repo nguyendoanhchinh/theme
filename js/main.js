@@ -141,8 +141,8 @@ function NavInputChange() {
     }
 }
 // Xử lý sự kiện khi tải trang và khi thay đổi kích thước cửa sổ
-window.addEventListener('load', NavInputChange);
-window.addEventListener('resize', NavInputChange);
+// window.addEventListener('load', NavInputChange);
+// window.addEventListener('resize', NavInputChange);
 
 // Xử lý sự kiện khi thay đổi giá trị của checkbox
 document.querySelector('.nav-input').addEventListener('change', NavInputChange);
@@ -157,7 +157,6 @@ document.querySelector('.overlay').addEventListener('click', function() {
     navInput.checked = false; // Đảm bảo checkbox không được chọn
     NavInputChange();
 });
-
 
 
 //down menu menu mobile
