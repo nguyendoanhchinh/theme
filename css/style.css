@@ -373,7 +373,9 @@
 /* nav__mobile */
 
 .nav__mobile {
+    margin: 0;
     position: fixed;
+    height: auto;
     top: 0;
     left: 0;
     right: 0;
@@ -417,13 +419,14 @@
 .menu-mobile {
     list-style: none;
     display: none;
-    position: relative;
-    top: 10px;
+    /* position: relative;
+    top: 10px; */
     margin-left: 20px;
 }
 
 .menu-mobile li {
     padding: 10px 0;
+    position: relative;
 }
 
 .nav__mobile-link i {

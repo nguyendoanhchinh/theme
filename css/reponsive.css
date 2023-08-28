@@ -93,6 +93,11 @@
 /*  tablet */
 
 @media(min-width:740px) and (max-width:1023px) {
+    .app {
+        max-width: 100%;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
     .hide-on-tablet {
         display: none;
     }
@@ -120,6 +125,24 @@
     .notification-container {
         width: 100%;
         flex-direction: column;
+    }
+    .slider-title span:first-child {
+        color: rgb(39, 50, 102);
+        font-size: 23px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 45px;
+        overflow-wrap: break-word;
+    }
+    .slider-title span:last-child {
+        color: var(--color-firebrick-100);
+        font-size: 23px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 45px;
+        word-wrap: break-word;
     }
     /*  */
     #next-button-left {
@@ -395,6 +418,11 @@
     .hide-on-mobile {
         display: none;
     }
+    .app {
+        overflow-x: hidden;
+        max-width: 100% !important;
+        margin: 0 auto;
+    }
     .slider {
         width: 90%;
         height: auto;
@@ -402,6 +430,24 @@
     .slider-content-title a {
         font-size: 20px;
         line-height: 20px;
+    }
+    .slider-title span:first-child {
+        color: rgb(39, 50, 102);
+        font-size: 23px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 45px;
+        overflow-wrap: break-word;
+    }
+    .slider-title span:last-child {
+        color: var(--color-firebrick-100);
+        font-size: 23px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 45px;
+        word-wrap: break-word;
     }
     .slider-group {
         width: 100%;
