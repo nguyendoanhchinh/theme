@@ -420,7 +420,7 @@
 .menu-mobile {
     list-style: none;
     display: none;
-    /* position: relative; */
+    position: relative;
     margin-left: 20px;
 }
 
@@ -618,7 +618,8 @@
     position: relative;
 }
 
-.slider-group {
+.slider-group,
+.slider-group2 {
     width: 1140px;
     justify-content: flex-start;
     align-items: flex-start;

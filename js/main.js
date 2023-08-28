@@ -34,15 +34,6 @@ function restartAutoSlide() {
     slideInterval = setInterval(autoSlide, 3000); // Tạo interval mới
 }
 
-// Gắn sự kiện click cho nút chuyển slide sang phải
-nextButtonRight.addEventListener('click', function() {
-    next();
-});
-
-// Gắn sự kiện click cho nút chuyển slide sang trái
-nextButtonLeft.addEventListener('click', function() {
-    prev();
-});
 
 // Hàm chuyển slide tự động
 function autoSlide() {
@@ -141,8 +132,8 @@ function NavInputChange() {
     }
 }
 // Xử lý sự kiện khi tải trang và khi thay đổi kích thước cửa sổ
-// window.addEventListener('load', NavInputChange);
-// window.addEventListener('resize', NavInputChange);
+window.addEventListener('load', NavInputChange);
+window.addEventListener('resize', NavInputChange);
 
 // Xử lý sự kiện khi thay đổi giá trị của checkbox
 document.querySelector('.nav-input').addEventListener('change', NavInputChange);
@@ -157,6 +148,7 @@ document.querySelector('.overlay').addEventListener('click', function() {
     navInput.checked = false; // Đảm bảo checkbox không được chọn
     NavInputChange();
 });
+
 
 
 //down menu menu mobile

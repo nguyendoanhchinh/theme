@@ -34,12 +34,14 @@
         padding: 0 20px;
         height: auto;
     }
-    .slider-group {
+    .slider-group,
+    .slider-group2 {
         width: 100%;
         flex-direction: column;
         gap: 20px;
     }
-    .slider-group img {
+    .slider-group,
+    .slider-group2 img {
         width: 100%;
         height: auto;
         position: relative;
