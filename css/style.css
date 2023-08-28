@@ -1471,8 +1471,7 @@ a {
     width: auto;
     margin: 0;
     padding: 0;
-    align-self: stretch;
-    height: 48px;
+    height: auto;
     color: #273266;
     font-size: 15px;
     font-family: Inter;
@@ -1498,7 +1497,7 @@ a {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
 
